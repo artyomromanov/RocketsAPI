@@ -32,7 +32,7 @@ class RocketsAdapter(private val rocketsList: List<RocketsModel>) : RecyclerView
         fun bind(position: Int) {
 
             itemView.tv_country.text = rocketsList[position].country
-            itemView.tv_engine_count.text = rocketsList[position].engines.number.toString()
+            itemView.tv_engine_count.text = rocketsList[position].firstStage.engines.toString()
             itemView.tv_name.text = rocketsList[position].rocketName
         }
     }
