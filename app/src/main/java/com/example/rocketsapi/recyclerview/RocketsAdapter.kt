@@ -1,9 +1,11 @@
-package com.example.rocketsapi
+package com.example.rocketsapi.recyclerview
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.rocketsapi.R
+import com.example.rocketsapi.model.RocketsModel
 import kotlinx.android.synthetic.main.rocket_item.view.*
 
 class RocketsAdapter(private val rocketsList: List<RocketsModel>) : RecyclerView.Adapter<RocketsAdapter.ViewHolder>() {

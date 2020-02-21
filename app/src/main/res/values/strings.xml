@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MealsApi</string>
+    <string name="app_name">SpaceXApi</string>
     <string name="title_activity_details">DetailsActivity</string>
     <string name="txt_title">Title</string>
     <string name="txt_description">Description</string>
